@@ -56,6 +56,6 @@ and then transmits data to interact with the smart contract. In this case, the t
 
 See the 'About Us' page.
 
-##Final Regards
+## Final Regards
 
 By no means would I say this is how I would want my project to be finalized, as there were a lot of conceptual points that I failed to take into consideration. Looking back, I would have spent more time working with Polygon's AMOY Testnet server on a different application from Alchemy. Furthermore, I also would have taken into consideration that implementations are constantly changing with these softwares and it is important to stay up to date with proper documentation of applications such as Alchemy or Ethers. Additionally, there were files (in `server\api\models`) set up to be used as a structure for an online database to store data offchain. This project was inspired by my dad, who taught me about being honest in business. This application was aimed to change the integrity of the insurance industry for the better.
