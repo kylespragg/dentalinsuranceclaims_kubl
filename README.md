@@ -15,6 +15,7 @@ Dental Insurance Claims on Ethereum Ledger
 <p>Currently, this project is still under development with a few server issues that need to be resolved. At the moment, the application is running offline to ensure that its intended purpose is highlighted when being demoed. In the future, this project will still utilize Polygon's Testnet servers to interact with contracts on the Ethereum network. The main thought process behind this build was to incorporate elements of offchain data storage for a more practical approach to draw consumers to this business model.</p>
 <h2>Contracts</h2>
 <p>There are two main contracts in this project that have been minted onto Ethereum's Blockchain (see the ```\build``` folder). My `auth.js` and `claim.js` files found in my ```server\api\routes``` folder are utilized to interact with these contracts by using Alchemy's `getTransaction()` function. This function takes in an object:
+```markdown
 ```javascript
 const tx = {
     from: OWNER_ADDRESS,
