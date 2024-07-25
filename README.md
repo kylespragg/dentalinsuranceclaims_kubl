@@ -1,7 +1,9 @@
 Dental Insurance Claims on Ethereum Ledger
 
-# Dental Insurance Claims on Ethereum Ledger Woot Woot
+# Dental Insurance Claims on Ethereum Ledger
 
+### Note
+You can create your app in your client folder by typing `npx create-react-app my-app` in your command line, I recommend looking at React's documentation for more information.
 ## Package Download Information
 
 ### npm install:
@@ -13,6 +15,18 @@ Dental Insurance Claims on Ethereum Ledger
 - axios
 
 This application was built using React, Node, Solidity, Alchemy, Polygon Amoy's Testnet Server, and Truffle.
+
+## Setup
+
+To run this application you need to open two terminals, one for the client side and one for the server side. 
+
+For the client side:
+- Ensure you have all the dependencies installed above, in the root directory type `cd client` to access the folder, and after type `npm start` to run the program.
+
+For the server side:
+- Again, ensure all dependencies are installed for this application, in the root directory type `cd server/api`, and after type `node server.js` to run the server.
+
+A window should pop up labeled `localhost:3000` to which the application should be running on.
 
 ## Main Goals
 
