@@ -26,7 +26,7 @@ For the client side:
 For the server side:
 - Again, ensure all dependencies are installed for this application, in the root directory type `cd server/api`, and after type `node server.js` to run the server.
 
-A window should pop up labeled `localhost:3000` to which the application should be running on.
+A window should pop up labeled `localhost:3001` to which the application should be running on.
 
 ## Main Goals
 
