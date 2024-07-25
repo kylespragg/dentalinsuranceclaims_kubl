@@ -1,0 +1,38 @@
+#abUsContainer{
+    width: 90vw;
+}
+#spreech{
+    font-size: 1.25rem;
+    color: #0969a1;
+    position: relative;
+    top: 6vh;
+    left: 5vw;
+    padding-bottom: 6vh;
+}
+.bold{
+    font-weight: bold;
+}
+#spreechWelcome{
+    font-size: 1.5rem;
+    left: 4vw;
+    color: #42484f;
+    position: relative;
+}
+#wallets {
+    font-size: .75rem;
+    position: relative;
+    left: 5vw;
+    color: #0969a1;
+}
+#walletInfo {
+    font-size: 1.25rem;
+    position: relative;
+    left: 4vw;
+    color: #42484f;
+}
+#noteWallets {
+    font-size: 1rem;
+    position: relative;
+    left: 4vw;
+    padding-bottom: 10vh;
+}

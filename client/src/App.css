@@ -1,38 +1,142 @@
-.App {
+/*Main Page (App.js) */
+
+body { /*background of page */
+  margin: 0; /* Remove default margin */
+  background-color: #fff;
+  overflow-x: hidden;
+}
+.mainHeader { /*main header for GFD order forms*/
+  position: relative;
   text-align: center;
+  background-color: #8d99a7;
+  padding-top: 2vh;
+  margin: 0;
+  z-index: 1;
+}
+#mainHeaderText{
+  font-size: 3.5rem;
+  color: #0969a1;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.containermainlogo { /* contains the logo*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+} 
+.mainlogo { /*main logo in top left corner */
+  padding-top: 2vh;
+  padding-left: 3vw;
+  z-index: 2;
+  height: 20vh;
+  transform: scale(2);   
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.custom-main-border { /* border around the main gfd header*/
+  position: relative;
+  border-style: outset;
+  width: 100vw;
+  padding-bottom: 4vh;
+  background-color: #8d99a7;
+  border-color: #42484f;
+  z-index: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tabs{ /*tab buttons */
+  position: absolute;
+  color: #9a173a;
+  font-family: serif;
+  top: 5vh;
+  right: 4vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  z-index: 1;
+
+}
+.tabs button{ /*meant for the send/check order and order history */
+  color: #bdbec0;
+  font-family: serif;
+  background-color: #0969a1;
+  border-color: #0969a1;
+  border-style: outset;
+  border-radius: .25rem;
+  margin-bottom: 3vh;
+  z-index: 1;
+  font-size: 1.25rem;
+  width: 10vw;
+  height: 4vh;
+}
+.tabs button:hover{
+  border-color: #063a57;
+  background-color:#063a57;
+  border-width: 3px;
+  transform: scale(1.05);
+}
+#headerSubText {
+  font-size: 1.5rem;
+  color: #0969a1;
+  font-family: serif;
+  position: relative;
+  text-align: center;
+  margin-top: -2vh;
+  animation: fadeIn 4s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
-.App-link {
-  color: #61dafb;
+
+@media (max-width: 75em) and (min-width: 38em) {
+  .mainHeader {
+    font-size: 2.15rem;
+  }
+  .tabs {
+    right: 3vw;
+  }
+  .tabs button {
+    width: 8vw;
+    font-size: .75rem;
+    margin-bottom: 1.5vh;
+  }
+  .mainlogo { 
+    height: 16vh;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 38em) {
+  .mainHeader {
+    font-size: 1.5rem;
   }
-  to {
-    transform: rotate(360deg);
+  .tabs {
+    right: 3vw;
+    top: 1vh;
   }
+  .tabs button {
+    width: 8vw;
+    font-size: .55rem;
+    margin-bottom: 1.5vh;
+  }
+  .mainlogo { 
+    height: 12vh;
+  }
+}
+
+@media (max-height: 35em) {
+  .mainHeader {
+    font-size: 2.5rem;
+    height: 30vh;
+  }
+  .tabs {
+    right: 6vw;
+    top: 2vh;
+  }
+  .tabs button {
+    width: 8vw;
+    font-size: .75rem;
+    margin-bottom: 1.5vh;
+  }
+  .mainlogo { 
+    height: 25vh;
+  }
+
 }

@@ -1,0 +1,114 @@
+#validateContainer{
+    position: relative;
+    bottom: 3vw;
+    height: 10vh;
+    width: 20vw;
+}
+#mainHeadText {
+    position: relative;
+    top: 5vh;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #0969a1;
+    font-family: "sans-serif";
+}
+#informationContainer {
+    position: relative;
+    width: 15vw;
+    z-index: 10;
+}
+#notesSection {
+    position: relative;
+    left: 2vw;
+}
+#buttonContainer {
+    position: relative;
+    left: 20vw;
+    bottom: 25vh;
+}
+.windowButtons {
+    width: 10vw;
+    height: 8vh;
+    font-size: 1.25rem;
+    color: #8f8f8f;
+    border-radius: 2rem;
+    border: 2px inset #898888;
+    margin-left: 4vw;
+    margin-bottom: 4vh;
+}
+.windowButtons:hover {
+    background-color: #0969a1;
+    border: outset;
+  }
+  .content-wrapper {
+    position: relative;
+    margin-left: 20vw;
+    width: 70vw;
+    bottom: 25vh;
+    height: 50vh;
+    padding: 1rem;
+    background-color: #8d99a7;
+    border: 1px solid #42484f;
+    border-radius: .5rem;
+  }
+  
+  .content-header {
+    margin-bottom: 2vh;
+  }
+  
+  .content-body {
+    font-size: 1rem;
+  }
+  .dropdown-select, .price-input {
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    border: 2px solid #42484f;
+    background-color: #becee0;
+    margin-bottom: 2vh;
+    width: 40vw;
+  }
+  
+
+  #buttonCheckPrice {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #buttonCheckPrice:hover {
+    background-color: #0056b3;
+  }
+  
+  .result {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .valid {
+    color: green;
+  }
+  
+  .invalid {
+    color: red;
+  }
+  
+  .fadeIn {
+    opacity: 0;
+    animation: fadeInAnimation 1s forwards;
+}
+
+.fadeInDelay {
+    opacity: 0;
+    animation: fadeInAnimation 1s forwards 1s;
+}
+
+@keyframes fadeInAnimation {
+    to {
+        opacity: 1;
+    }
+}
