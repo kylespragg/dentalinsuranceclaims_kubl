@@ -21,11 +21,11 @@ const dentalInsuranceVerifier = new web3.eth.Contract(contractABI, contractAddre
 // console.log(PRIVATE_KEY);
 // console.log(SECRET_KEY);
 
-ALCHEMY_API_KEY='q3F9DQ9VX1kWW98vaCwOJVCY4RGT9axX'
-SECRET_KEY='0x6ADBNC8DF248DFNC823R364994776F0A64FB3F8DBEBE638BBD47'
+ALCHEMY_API_KEY= process.env.ALCHEMY_API_KEY;
+SECRET_KEY= process.env.SECRET_KEY;
 PORT=5000
-OWNER_ADDRESS='0x6473C3AE4B0b0FE47dfa4Fd85fFcB00f9f5795C4'
-PRIVATE_KEY='0xc99fcaf2af343f428143b071a10497641049fe678345f7572eb1a6a649ad7d5a'
+OWNER_ADDRESS= process.env.OWNER_ADDRESS;
+PRIVATE_KEY= process.env.PRIVATE_KEY;
 
 const sendTransaction = async (transaction) => {
     try {
