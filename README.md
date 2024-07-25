@@ -13,8 +13,8 @@ You can create your app in your client folder by typing `npx create-react-app my
 - body-parser
 - cors
 - axios
-
-This application was built using React, Node, Solidity, Alchemy, Polygon Amoy's Testnet Server, and Truffle.
+- truffle and @truffle/hdwallet-provider
+- web3
 
 ## Setup
 
